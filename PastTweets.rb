@@ -16,7 +16,9 @@ end
 cfg = Twitter::Client.config
 
 client = Twitter::Client.new(:oauth_access =>
-{  :key => '19745640-Z9yKLyw2
+{   :key => '19745640-Z9yKIyw2iQ1FYl2fkepCP9qukx8FmiYNYpvu4'
+    :secret => 'eCU4IEZRgAFUGl3Fsd7shZRmfoz2eJBEJLH47bj5g'
+}
 
 user = twitter.user('cheesysam')
 puts user.my(:info)
