@@ -10,7 +10,7 @@ Twitter::Client.configure do |conf|
 	conf.application_url = 'http://github.com/cheesysam/PastTweets'
 
     conf.oauth_consumer_token = 'urW1stBADHpeTLhLwd7g'
-    conf.oauth_consumer_secret = 'I9E9TgJzVF6caTXma5uCNI2yuzsfC0N5KUpgBTXrJY'
+    conf.oauth_consumer_secret = 'I9E9TgJzVF6caTXma5uCNl2yuzsfC0N5KUpgBTXrJY'
 end
 	
 cfg = Twitter::Client.config
