@@ -20,5 +20,5 @@ client = Twitter::Client.new(:oauth_access =>
     :secret => 'eCU4IEZRgAFUGl3Fsd7shZRmfoz2eJBEJLH47bj5g'
 })
 
-puts client.user 'cheesysam'
-puts client.timeline_for :me
+#puts client.user 'cheesysam'
+puts client.timeline_for :user, :id => 'matty_jwilliams', :count =>50
